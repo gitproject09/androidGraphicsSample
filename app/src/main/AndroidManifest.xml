@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sopan.graphics.shade_filter" >
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme" >
+    <activity
+        android:name="com.sopan.graphics.shade_filter.MainActivity"
+        android:label="@string/app_name" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.sopan.graphics.shade_filter.RainbowGradientActivity"
+        android:label="@string/rainbow_gradient"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.PatternedTextActivity"
+        android:label="@string/patterned_text"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.PeekThroughActivity"
+        android:label="@string/peek_through"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+      android:name="com.sopan.graphics.shade_filter.ClipRectActivity"
+      android:label="@string/clip_rect"
+      android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.ColorMatrixActivity"
+        android:label="@string/color_matrix"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.FourColorsActivity"
+        android:label="@string/four_colors"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.PorterDuffActivity"
+        android:label="@string/porter_duff"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.HollowTextActivity"
+        android:label="@string/hollow_text"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.EmbossMaskFilterActivity"
+        android:label="@string/emboss_mask_filter"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.BlurMaskFilterActivity"
+        android:label="@string/blur_mask_filter"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.RenderscriptBlurActivity"
+        android:label="@string/renderscript_blur"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.RenderscriptConvolutionActivity"
+        android:label="@string/renderscript_convolution"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+    <activity
+        android:name="com.sopan.graphics.shade_filter.AboutActivity"
+        android:label="@string/about"
+        android:parentActivityName="com.sopan.graphics.shade_filter.MainActivity" />
+  </application>
+
+</manifest>
